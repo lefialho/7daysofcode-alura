@@ -18,5 +18,5 @@ Para gerar o projeto em produção e inciar um servidor com os arquivos minifica
 
 **npm run build** e depois **npm run start**
 
-
+#7DaysOfCode Challenge
 
