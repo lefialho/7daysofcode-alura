@@ -1,0 +1,30 @@
+@mixin title() {
+  font-family: var(--font-title);
+  font-size: var(--font-size-title);
+  line-height: 1.1;
+  color: var(--text-color);
+}
+
+@mixin subtitle() {
+  font-family: var(--font-title);
+  font-size: var(--font-size-subtitle);
+  line-height: 1.1;
+  color: var(--text-color);
+}
+
+@mixin subtitle-2() {
+  font-family: var(--font-title);
+  font-size: var(--font-size-subtitle-2);
+  line-height: 1.1;
+  color: var(--text-color);
+}
+
+@mixin text() {
+  color: var(--text-color);
+  opacity: 0.5;
+}
+
+@mixin tag() {
+  @include text();
+  font-size: var(--font-size-tag);
+}

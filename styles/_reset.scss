@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:ital,wght@0,400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:where(ul) {
+  list-style: none;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

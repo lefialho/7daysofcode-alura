@@ -1,0 +1,31 @@
+:root {
+  // Font-family
+  --font-default: 'Montserrat', sans-serif;
+  --font-title: 'Elsie Swash Caps', cursive;
+  // Font-size
+  --font-size-tag: clamp(1rem, 3vw, 1.275rem);
+  --font-size-text: 1rem;
+  --font-size-title: clamp(2.5rem, 5vw + 16px, 5rem);
+  --font-size-subtitle: clamp(1.5rem, 2vw + 16px, 3rem);
+  --font-size-subtitle-2: clamp(1rem, 2vw + 16px, 2rem);
+  // color
+  --base-hue-primary-color: 43;
+  --base-saturation-primary-color: 100%;
+  --text-color: #202020;
+  --primary-color: hsl(var(--base-hue-primary-color), var(--base-saturation-primary-color), 64%);
+  --primary-light-color: hsl(var(--base-hue-primary-color), var(--base-saturation-primary-color), 70%);
+  // size
+  --small-size: 1rem;
+  --medium-size: 2rem;
+  --large-size: 3rem;
+  // spacement
+  --vertical-space-small: var(--small-size) 0;
+  --vertical-space-medium: clamp(var(--small-size), 4vw, var(--medium-size)) 0;
+  --horizontal-space-small: 0 var(--small-size);
+  --horizontal-space-medium: 0 clamp(var(--small-size), 4vw, var(--medium-size));
+  //gap
+  --small-gap: var(--small-size);
+  --medium-gap: var(--medium-size);
+  // shadow
+  --shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}

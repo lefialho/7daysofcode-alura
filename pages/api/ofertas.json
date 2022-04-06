@@ -1,0 +1,40 @@
+{
+  "Ofertas": [
+    {
+      "id": 1,
+      "Img": "produto-01",
+      "Title": "Ajuga reptans",
+      "Price": "R$ 20,00"
+    },
+    {
+      "id": 2,
+      "Img": "produto-02",
+      "Title": "Cordyline fruticosa",
+      "Price": "R$ 27,90"
+    },
+    {
+      "id": 3,
+      "Img": "produto-03",
+      "Title": "Crassula ovata",
+      "Price": "R$ 25,99"
+    },
+    {
+      "id": 4,
+      "Img": "produto-04",
+      "Title": "Cyperus rotundus",
+      "Price": "R$ 19,00"
+    },
+    {
+      "id": 5,
+      "Img": "produto-05",
+      "Title": "Delairea odorata",
+      "Price": "R$ 32,99"
+    },
+    {
+      "id": 6,
+      "Img": "produto-06",
+      "Title": "Datura metel",
+      "Price": "R$ 12,00"
+    }
+  ]
+}

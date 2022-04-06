@@ -1,0 +1,89 @@
+.ofertas {
+  &__wrapper-title {
+    display: grid;
+    place-items: center;
+    margin: var(--vertical-space-medium);
+  }
+
+  &__tag {
+    @include tag();
+  }
+
+  &__title {
+    @include title();
+  }
+
+  &__subtitle {
+    @include subtitle-2();
+    max-width: 120px;
+  }
+
+  &__list {
+    display: grid;
+    gap: var(--medium-gap);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  &__item {
+    background-color: #fff;
+    display: grid;
+    gap: var(--small-gap);
+    grid-template-columns: 160px 1fr;
+    box-shadow: var(--shadow);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &__price {
+    opacity: 0.5;
+    margin: var(--vertical-space-small);
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: var(--medium-size);
+    background: none;
+    border: none;
+    text-align: left;
+    color: var(--primary-color);
+    cursor: pointer;
+
+    &::after {
+      content: '\2192';
+    }
+
+    &:hover {
+      color: var(--text-color);
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: var(--medium-size);
+    padding-left: 0;
+  }
+
+  @media (max-width: 768px) {
+    &__list {
+      gap: var(--small-gap);
+    }
+
+    &__item { 
+      align-items: end;
+      grid-template-columns: 1fr 1fr;
+      
+      img {
+        height: auto;
+      }
+    }
+
+    &__subtitle {
+      @include subtitle-2();
+      max-width: 100%;
+    }
+  }
+}

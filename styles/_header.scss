@@ -1,0 +1,10 @@
+
+@media (max-width: 768px) {
+  .header {
+    display: grid;
+  }
+
+  .menu {
+    padding-bottom: var(--small-size);
+  }
+}
