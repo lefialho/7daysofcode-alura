@@ -1,3 +1,5 @@
+#7DaysOfCode Challenge
+
 ## Getting Started
 
 Para rodar o projeto em dev:
@@ -17,6 +19,4 @@ Abrir o terminal na pasta api e rodar o código:
 Para gerar o projeto em produção e inciar um servidor com os arquivos minificados:
 
 **npm run build** e depois **npm run start**
-
-#7DaysOfCode Challenge
 
