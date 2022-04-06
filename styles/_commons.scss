@@ -5,7 +5,7 @@ body {
   line-height: 1.7;
 
   &::before {
-    content: url(../../melhores-plantas/public/images/detalhe.svg);
+    content: url(./../public/images/detalhe.svg);
     position: absolute;
     right: 0;
     z-index: 0;
