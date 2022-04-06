@@ -1,8 +1,6 @@
 function Footer() {
   return (
-    <footer>
-      Esse é o footer
-    </footer>
+    <footer className="footer">Alguns direitos reservados - Copyright © by Leandro Fialho</footer>
   );
 }
 

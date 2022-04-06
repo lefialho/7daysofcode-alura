@@ -2,25 +2,25 @@
   font-family: var(--font-title);
   font-size: var(--font-size-title);
   line-height: 1.1;
-  color: var(--text-color);
+  color: var(--secondary-color);
 }
 
 @mixin subtitle() {
   font-family: var(--font-title);
   font-size: var(--font-size-subtitle);
   line-height: 1.1;
-  color: var(--text-color);
+  color: var(--secondary-color);
 }
 
 @mixin subtitle-2() {
   font-family: var(--font-title);
   font-size: var(--font-size-subtitle-2);
   line-height: 1.1;
-  color: var(--text-color);
+  color: var(--secondary-color);
 }
 
 @mixin text() {
-  color: var(--text-color);
+  color: var(--secondary-color);
   opacity: 0.5;
 }
 

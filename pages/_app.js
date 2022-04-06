@@ -16,10 +16,10 @@ const theme = {
     fontFamily: '"Elsie Swash Caps", cursive',
     fontSize: 'var(--font-size-subtitle)',
     lineHeight: 1.1,
-    color: 'var(--text-color)',
+    color: 'var(--secondary-color)',
   },
   text: {
-    color: 'var(--text-color)',
+    color: 'var(--secondary-color)',
     fontSize: 'var(--font-size-tag)',
     opacity: 0.5,
   }
