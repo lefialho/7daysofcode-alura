@@ -4,7 +4,6 @@ import Newsletter from './src/components/Newsletter'
 import ComoConseguir from './src/components/ComoConseguir'
 import Ofertas from './src/components/Ofertas'
 // import Footer from './src/patterns/Footer'
-// import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
