@@ -29,7 +29,7 @@ export default function Ofertas() {
             <div className="ofertas__wrapper">
               <h2 className="ofertas__subtitle">{oferta.Title}</h2>
               <span className="ofertas__price">{oferta.Price}</span>
-              <button button className="ofertas__btn">Comprar</button>
+              <button className="ofertas__btn">Comprar</button>
             </div>
           </li>
         ))}
