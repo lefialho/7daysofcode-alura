@@ -1,4 +1,4 @@
-import Head from './src/Head'
+import Head from './src/Head/index.page'
 import '../styles/index.scss'
 import { theme } from './theme'
 import { ThemeProvider } from 'styled-components'
