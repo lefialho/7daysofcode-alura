@@ -10,7 +10,7 @@ Abra [http://localhost:3002](http://localhost:3002) no browser para visualizar.
 
 ## Init api Server
 
-Abrir o terminal na pasta api e rodar o código:
+Abrir o terminal na pasta raíz e rodar o código:
 
 **json-server pages/api/ofertas.json –watch**
 
