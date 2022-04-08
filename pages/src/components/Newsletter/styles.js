@@ -24,7 +24,6 @@ export const NewsletterForm = Styled.form`
     color: white;
     box-shadow: 10px 10px 30px rgba(255, 203, 71, 0.3);
     cursor: pointer;
-    outline: none;
 
     &:hover {
       background-color: var(--primary-light-color);
