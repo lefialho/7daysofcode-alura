@@ -6,10 +6,12 @@ export default function Ofertas() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("http://localhost:3000/Ofertas");
-      const ofertas = await response.json();
-
-      setOfertas(ofertas);
+      const response = await fetch("https://gist.githubusercontent.com/lefialho/49f8b58999c4e427b4021f85a98527de/raw/4888e8bb55e171ea578c554d3238a0bcc6cd267a/ofertas.json");
+      const json = await response.json();
+      const { Ofertas } = json;
+      const ofertas = Ofertas;
+  
+      setOfertas(Ofertas);
     }
     fetchData();
   }, []);

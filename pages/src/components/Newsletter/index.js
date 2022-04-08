@@ -10,9 +10,9 @@ export default function Newsletter() {
         <p className="newsletter__text">
           Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca.
         </p>
-        <NewsletterForm className='newsletter__form'>
-          <input className='newsletter__input' type="text" placeholder="Insira seu e-mail" />
-          <button className='newsletter__btn'>Assinar newsletter</button>
+        <NewsletterForm>
+          <input type="text" placeholder="Insira seu e-mail" />
+          <button>Assinar newsletter</button>
         </NewsletterForm>
       </div>
     </section>

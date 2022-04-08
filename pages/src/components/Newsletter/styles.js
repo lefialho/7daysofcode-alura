@@ -8,7 +8,7 @@ export const NewsletterForm = Styled.form`
   position: relative;
   border: none;
 
-  .newsletter__input {
+  input {
     flex: 1;
     padding: ${({ theme }) => theme.spacing.small}rem;
     padding-left: ${({ theme }) => theme.spacing.large}rem;
@@ -17,7 +17,7 @@ export const NewsletterForm = Styled.form`
     outline: none;
   }
 
-  .newsletter__btn {
+  button {
     border: none;
     padding: var(--small-size) var(--medium-size);
     background-color: ${({ theme }) => theme.colors.primary};
