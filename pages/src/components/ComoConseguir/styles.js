@@ -6,6 +6,8 @@ export const ComoConseguirStyles = Styled.section`
   max-width: 992px;
   margin: 0 auto clamp(var(--small-size), 4vw, var(--medium-size));
   box-shadow: var(--shadow);
+  position: relative;
+  z-index: 3;
 
   .list {
     background: #fff;
